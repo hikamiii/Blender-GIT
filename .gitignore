@@ -1,0 +1,12 @@
+# Blender automatically creates numbered backup files beside each saved scene.
+# Keep the primary .blend file under version control; ignore its local backups.
+*.blend[0-9]
+
+# Blender temporary and recovery files.
+*.blend@
+*.blend~
+
+# Operating-system clutter.
+.DS_Store
+Thumbs.db
+Desktop.ini
